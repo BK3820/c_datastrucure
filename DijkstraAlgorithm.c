@@ -31,3 +31,12 @@ distance[start] = 0;
         mindistance = distance[i];
         nextnode = i;
       }
+ visited[nextnode] = 1;
+    for (i = 0; i < n; i++)
+      if (!visited[i])
+        if (mindistance + cost[nextnode][i] < distance[i]) {
+          distance[i] = mindistance + cost[nextnode][i];
+          pred[i] = nextnode;
+        }
+    count++;
+  }
