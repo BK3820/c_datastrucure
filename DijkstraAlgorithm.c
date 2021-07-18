@@ -14,3 +14,8 @@ for (i = 0; i < n; i++)
         cost[i][j] = INFINITY;
       else
         cost[i][j] = Graph[i][j];
+  for (i = 0; i < n; i++) {
+    distance[i] = cost[start][i];
+    pred[i] = start;
+    visited[i] = 0;
+  }
