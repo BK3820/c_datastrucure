@@ -19,3 +19,15 @@ for (i = 0; i < n; i++)
     pred[i] = start;
     visited[i] = 0;
   }
+distance[start] = 0;
+  visited[start] = 1;
+  count = 1;
+
+  while (count < n - 1) {
+    mindistance = INFINITY;
+
+    for (i = 0; i < n; i++)
+      if (distance[i] < mindistance && !visited[i]) {
+        mindistance = distance[i];
+        nextnode = i;
+      }
