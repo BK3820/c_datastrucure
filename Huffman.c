@@ -123,3 +123,4 @@ void insertMinHeap(struct MinHeap* minHeap,
  
     minHeap->array[i] = minHeapNode;
 }
+
