@@ -6,6 +6,7 @@ struct node{
 	struct node*next;
 };
 
+
 struct node* add_beg(struct node **head,int d){
 	struct node *ptr = NULL;
 	ptr = (struct node*)malloc(sizeof(struct node));
@@ -16,6 +17,7 @@ struct node* add_beg(struct node **head,int d){
 	*head = ptr;
 	
 }
+
 
 
 int main()
