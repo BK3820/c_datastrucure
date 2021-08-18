@@ -2,6 +2,7 @@ int n,m,test;
 scanf("%d",&test);
 while(test--)
  {
+ 
   scanf("%d",&n);
   scanf("%d",&m);
  if(n%2==0)
