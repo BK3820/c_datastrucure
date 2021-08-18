@@ -1,5 +1,3 @@
-
- 
 int n,m,test;
 
  scanf("%d",&test);
