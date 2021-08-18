@@ -1,6 +1,5 @@
 int n,m,test;
-
- scanf("%d",&test);
+scanf("%d",&test);
 
  while(test--)
  {
