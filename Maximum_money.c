@@ -11,7 +11,8 @@ while(test--)
  }
  
  else
- {printf("%d\n",((n/2)+1)*m);
+ {
+  printf("%d\n",((n/2)+1)*m);
  }
  }
 return 0;
