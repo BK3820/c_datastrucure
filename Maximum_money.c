@@ -9,6 +9,7 @@ while(test--)
  {printf("%d\n",(n/2)*m);
   
  }
+ 
  else
  {printf("%d\n",((n/2)+1)*m);
  }
